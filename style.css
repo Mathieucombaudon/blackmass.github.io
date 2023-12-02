@@ -1,0 +1,109 @@
+:root, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+}
+.navi{
+    background: orange;
+    color: white;
+    border-bottom: 1px solid #ccc;
+
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+.navi ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navi ul li{
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: black;
+
+}
+i{
+    margin-right: 10px;
+
+}
+.navi ul li:hover{
+    background-color: #333;
+}
+.navi ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navi h1{
+    margin-right: 20px;
+    color: black;
+}
+.section-one{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 30vw);
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+    margin: 11vh auto 20px auto;
+    border-radius: 10px;
+
+    padding: 2rem;
+    background-color: rgba(200, 200, 200, 0.1);
+    color: black;
+    transition: all 0.5s ease;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 30vw);
+    border: 1px solid orange;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 20px auto;
+    background-color: rgba(200, 200, 200, 0.1);
+    color: black;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+.grid{
+    display:flex;
+    flex-direction: row;
+    margin: 20px 20px 20px 30px;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(200, 200, 200, 0.1);
+    color: black;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
+.card2{
+
+
+    align-items: center;
+    padding: 2rem;
+    background-color: rgba(200, 200, 200, 0.1);
+    color: black;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+    border: 1px solid orange;
+}
